@@ -1,0 +1,19 @@
+package io.renren.modules.sys.dao;
+
+import io.renren.modules.sys.entity.CardEntity;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
+
+/**
+ * 
+ * 
+ * @author Mark
+ * @email sunlightcs@gmail.com
+ * @date 2019-03-10 20:11:19
+ */
+@Mapper
+public interface CardDao extends BaseMapper<CardEntity> {
+
+}
